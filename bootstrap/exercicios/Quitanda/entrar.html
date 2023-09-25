@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+ 
+</head>
+<body>
+    <header>
+        <div class="justify-content-between">
+            <div>
+                <div class="navbar bg-warning navbar-dark navbar-expand-sm">
+                    <div class="container">
+                        <a href="Produto.html" class="navbar-brand fw-bold">Quitanda Online</a>
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-collapse collapse" id="menu">
+                            <div class="navbar-nav">
+                                <a href="../Quitanda/index.html" class="nav-link">Principal</a>
+                                <a href="../Quitanda/contato.html" class="nav-link">Contato</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="navbar-collapse collapse" id="menu">
+                            <div class="navbar-nav">
+                                <a href="../Quitanda/cadastro.html" class="nav-link">Cadastrar</a>
+                                <a href="../Quitanda/entrar.html" class="nav-link">Entrar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="flex-fill">
+        <div class="container">
+            <div class="row justify-content-center">
+                <form class="col-sm-10 col-md-8 col-lg-6">
+                    <h1>Identifique-se, por favor</h1>
+
+                    <div class="form-floating mb-3">
+                        <input type="email" id="txtEmail" class="form-control" placeholder=" " autofocus="">
+                        <label for="txtEmail">E-mail</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="password" id="txtSenha" class="form-control" placeholder=" ">
+                        <label for="txtSenha">Senha</label>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" value="" id="chkLembrar">
+                        <label for="chkLembrar" class="form-check-label">Lembrar de mim</label>
+                    </div>
+
+                    <button type="button" onclick="window.location.href='/cliente_pedidos'"
+                        class="btn btn-lg btn-danger">Entrar</button>
+
+                    <p class="mt-3">
+                        Ainda não é cadastrado? <a href="/cadastro">Clique aqui</a> para se cadastrar.
+                    </p>
+
+                    <p class="mt-3">
+                        Esqueceu sua senha? <a href="/recuperarsenha">Clique aqui</a> para recuperá-la.
+                    </p>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="border-top text-muted bg-light">
+        <div class="container">
+            <div class="footer-box">
+                <div class="row py-3">
+                    <div class="col-12 col-md-4 text-center">
+                        © 2020 - Quitanda Online Ltda ME<br>
+                        Rua Virtual Inexistente, 171, Compulândia/PC <br>
+                        CPNJ 99.999.999/0001-99
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <a href="/privacidade" class="text-decoration-none text-dark">
+                            Política de Privacidade
+                        </a><br>
+                        <a href="/termos" class="text-decoration-none text-dark">
+                            Termos de Uso
+                        </a><br>
+                        <a href="/quemsomos" class="text-decoration-none text-dark">
+                            Quem Somos
+                        </a><br>
+                        <a href="/trocas" class="text-decoration-none text-dark">
+                            Trocas e Devoluções
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <a href="/contato" class="text-decoration-none text-dark">
+                            Contato pelo Site
+                        </a><br>
+                        E-mail: <a href="mailto:email@dominio.com" class="text-decoration-none text-dark">
+                            email@dominio.com
+                        </a><br>
+                        Telefone: <a href="phone:28999990000" class="text-decoration-none text-dark">
+                            (28) 99999-0000
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</body>
+</html>

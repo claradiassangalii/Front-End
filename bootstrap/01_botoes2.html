@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container pt-5 ">
+    <!--Com bootstrap-->
+    
+    <!--
+        01 - tipo primary com cor do texto black
+        
+        02 - tipo danger com cor do texto dark
+        03 - tipo warning
+        04 - tipo info com cor do texto seondary e backgroud texto sucess
+
+        crie botoes usando elementos da tag "a" e do tipo input "submit"
+        05 - tag "a": tipo primary
+        06 - tag input "submit": tipo sucess
+
+        crie botoes do tipo outline
+        07 - botao do tipo primary 
+        08- botao do tipo warning
+
+        crie um botao ucupando uma linha inteira 
+        09 - Do tipo outline sucess, larger e margin top 3
+    -->
+    
+     <!--Atribuindo classes de botoes em elementos diferentes-->
+    <button type="button" class="bg-primary text-black  "> Primary </button>
+   
+    <button type="button" class="bg-danger text-dark">danger com dark</button>
+    <button type="button" class="btn btn-warning "> 03 warning </button>
+    <button type="button" class="btn btn-warning text-secondary bg-success"> 04 info</button>
+
+ <!--Formas de fzr botoes usando "a " e "input"-->
+    <a href=""class="btn btn-primary ">botao 05</a>
+    <input type="submit" class="btn btn-success" value="botao 06" />
+
+     <!-- Botoes outline-->
+    <button type="button" class="btn btn-outline-primary">botao 07</button>
+    <button type="button" class="btn btn-outline-warning">botao 08</button>
+
+     <!-- Botao que ocupa uma linha intiera-->
+    <div class="d-grid">
+        <button class="btn btn-outline-success " type="button">Botao 09</button>
+      </div>
+   
+      <div class="d-grid">
+        <button class="w-25 mt-3  btn btn-outline-success "> botao 25%</button>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="d-grid" >
+        <button class="w-50 mt-3  btn btn-outline-dark">botao 50%</button>
+      </div>
+
+      <br>
+      <div class="d-grid">
+        <button class="w-75 mt-3 btn btn-info  ">botao 75%</button>
+      </div>
+   
+
+      
+       <!--Criando um boxmodel-->
+       <h1>boxmodel</h1>
+       <hr>
+       <div class= "rounded display-1 text-center bg-warning   border border-primary border-5">
+        teste
+       </div>
+</body>
+</html>
